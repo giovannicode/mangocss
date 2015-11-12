@@ -9,10 +9,15 @@ $base-color-dark: darken($base-color, 5%);
 // RESPONSIVE/ADAPTIVE SETTINGS;
 $mobile-large-width: 500px;
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 // Set Global Defaults
 .mango-body {
   font-family: $base-font-family;
-  color: hsl(0, 0%, 10%);  
+  color: hsl(0, 0, 10%); 
   
   h1 {
     color: $base-color;
@@ -46,14 +51,14 @@ $mobile-large-width: 500px;
     }
   }
     
-  button {
+  /*button {
     background-color: $base-color;  
     border: none;
     width: 100px;
     height: 30px;
     border-radius: 5px;
     color: white;
-  }
+  }*/
 }
 
 // Mango-Container Layout
@@ -88,3 +93,5 @@ $mobile-large-width: 500px;
 @import '_forms'; 
 @import '_horinav';
 @import '_vertinav';
+@import '_buttons';
+@import '../custom/_post';

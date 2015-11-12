@@ -1,0 +1,23 @@
+$button-width: 100px;
+$button-height: 30px;
+
+$button-background-color: $base-color;
+$button-border: none;
+$button-border-radius: 5px;
+$button-color: white;
+
+// mango-button dimensions
+.mango-button
+{
+  width: $button-width;
+  height: $button-height;
+}
+
+// mango-button style
+.mango-button
+{
+  background-color: $button-background-color;
+  border: $button-border;
+  border-radius: $button-border-radius;
+  color: $button-color;
+}
